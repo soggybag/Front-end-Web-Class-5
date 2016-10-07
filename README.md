@@ -31,6 +31,7 @@ Recreate the examples...
     - Try using two different fonts one for the headline and another for the copy
     - Try using one font, but use a different style for the headline. 
       - Choose a font that has extra styles take a look at [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+     - The color, and background color, try using text-shadow (in a subtle way)
     - Challenge yourself further: 
       - For each font pair style 
 
