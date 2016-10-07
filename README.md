@@ -1,12 +1,24 @@
 # Front-end-Web-Class-5
 
 
-## 1 - CSS transition
+## 1 - CSS Position absolute, relative, and fixed
+
+CSS position property provides further control over the position of elements. 
+Use position when you need more control over the position of an element. 
+
+### Position challenges
+
+Recreate the examples...
+
+## 2 - CSS transition
 
 The transition property creates animated effects with CSS. 
 
 `transition: 400ms;`
 
+### Transition Challenges
+
+Recreate the examples...
 
 ## Challenges 
 - Create a layout for your portfolio web site
@@ -19,6 +31,7 @@ The transition property creates animated effects with CSS.
     - Try using two different fonts one for the headline and another for the copy
     - Try using one font, but use a different style for the headline. 
       - Choose a font that has extra styles take a look at [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-     
+    - Challenge yourself further: 
+      - For each font pair style 
 
 
