@@ -12,9 +12,25 @@ Recreate the examples...
 
 ## 2 - CSS transition
 
-The transition property creates animated effects with CSS. 
+The transition property creates animated effects with CSS. Here is an example:
 
-`transition: 400ms;`
+```
+.thing {
+  background-color: blue;
+  transition: 2s;
+ }
+ 
+ .thing:hover {
+  background-color: red;
+ }
+```
+
+Thing changes from blue to red in 2 seconds on hover. Thing also changes back to blue over 2 seconds when the hover ends. 
+
+Time units can be: 
+
+- s seconds
+- ms milliseconds
 
 ### Transition Challenges
 
