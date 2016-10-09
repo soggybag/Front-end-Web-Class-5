@@ -51,4 +51,30 @@ Recreate the examples...
     - Challenge yourself further: 
       - For each font pair style 
 
+## 3 - Font Awesome
+
+Font Awesome is a great way to add icons to your project. Really this
+is just a style sheet. You would have eventually done the same thing
+if you worked at it long enough. Font Awesome also supplies all the art, 
+which you would have found all of the internet if you spent anoung time. 
+
+In short follow these steps:
+
+- Register with Font Awesome and use Font Awesome from the CDN
+    - Using the CDN provides a few advantages in download time and file management
+    - Using the CDN won't work offline
+- Link to Font Awesome in the head of your document
+- Search the icons you want to use on the Font Awesome site 
+    - Use the tag usually it will look something like:
+        - `<i class="fa fa-envelope-o" aria-hidden="true"></i>`
+    - Don't forget Font Awesome supplies icons at several sizes: 
+        - ```
+<i class="fa fa-camera-retro fa-lg"></i> fa-lg
+<i class="fa fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa fa-camera-retro fa-3x"></i> fa-3x
+<i class="fa fa-camera-retro fa-4x"></i> fa-4x
+<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+```
+    - You can also set icons to fixed width. 
+        - `<i class="fa fa-home fa-fw" aria-hidden="true">`
 
