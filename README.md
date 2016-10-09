@@ -68,7 +68,8 @@ In short follow these steps:
     - Use the tag usually it will look something like:
         - `<i class="fa fa-envelope-o" aria-hidden="true"></i>`
     - Don't forget Font Awesome supplies icons at several sizes: 
-        - ```
+        - 
+```
 <i class="fa fa-camera-retro fa-lg"></i> fa-lg
 <i class="fa fa-camera-retro fa-2x"></i> fa-2x
 <i class="fa fa-camera-retro fa-3x"></i> fa-3x
