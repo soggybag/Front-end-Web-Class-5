@@ -1,5 +1,13 @@
 # Front-end-Web-Class-5
 
+## Objectives 
+
+- Use CSS position to place things in a page 
+- Use CSS transitions to make things move
+- Build pages using position and transitions
+
+## Schedule 
+
 |   |   Time |    | Activity| Description |
 |---|--------|----|---------|-------------|
 | 1 |  5 min |  5 | TT      | Intro review CSS position |
