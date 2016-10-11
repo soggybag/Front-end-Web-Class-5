@@ -6,46 +6,142 @@
             body {
                 margin: 0;
                 background-color: #ddd;
+                font-size: 20px;
+                font-family: Helvetica;
+                line-height: 1.45;
             }
             .banner {
-                height: 300px;
+                height: 400px;
                 background-color: red;
             }
             
             .content {
                 width: 900px;
-                height: 400px;
+                min-height: 400px;
                 margin: auto;
+                margin-bottom: -80px
             }
             
             .inner-content {
                 background-color: #fff;
-                height: 480px;
+                height: 100%;
                 position: relative;
                 top: -40px;
+                padding: 4em;
+            }
+            
+            .banner {
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .banner-1 {
+                background-image: url(den.png);
+            }
+            
+            .banner-2 {
+                background-image:url(the-den-office-coworking-1.jpg);
+            }
+            
+            .banner-3 {
+                background-image:url(the-den-office-coworking-2.jpg);
+            }
+            
+            .banner-4 {
+                background-color: #444;
             }
         </style>
     </head>
     <body>
         <div class="main">
-            <div class="banner"></div>
+            <div class="banner banner-1"></div>
             <div class="content">
-                <div class="inner-content"></div>
+                <div class="inner-content">
+                    <h1>CSS Positioning 101</h1>
+                    <small>by Noah Stokes November 16, 2010</small>
+                    <p>If you’re a front end developer or a designer who likes to code, CSS-based layouts are at the very core of your work. In what might be a refresher for some, or even an “a-ha!” for others, let’s look at the CSS position property to see how we can use it to create standards-compliant, table-free CSS layouts.</p>
+                    <p>CSS positioning is often misunderstood. Sometimes, in a bug-fixing fury, we apply different position values to a given selector until we get one that works. This is a tedious process that can work for a time, but it behooves us to know why specifying something like position: relative can fix your layout bug. My hope is that we can learn the position property’s values and behaviors, and most importantly, how a value can affect your markup.</p>
+                    <p>The CSS specification offers us five position properties: static, relative, absolute, fixed, and inherit. Each property serves a specific purpose. Understanding that purpose is the key to mastering CSS-based layouts.</p>
+                </div>
             </div>
             
-            <div class="banner"></div>
+            <div class="banner banner-2"></div>
             <div class="content">
-                <div class="inner-content"></div>
+                <div class="inner-content">
+                    <h1>GET WITH THE FLOW</h1>
+                    <p>First, let’s take a step back to recognize the world we’re working in. Much like our real world, in CSS, we work within boundaries. In CSS, this boundary is called the normal flow. According to the CSS 2.1 spec:</p>
+                    <blockquote>Boxes in the normal flow belong to a formatting context, which may be block or inline, but not both simultaneously. Block boxes participate in a block formatting context. Inline boxes participate in an inline formatting context.</blockquote>
+                    <p>Think of a “box,” as described by the spec as a wooden block—not unlike the ones you played with as a young whippersnapper. Now, think of the normal flow as a law similar to the law of gravity. The normal flow of the document is how your elements stack one on top of each other, from the top down, in the order in which they appear in your markup. You may remember stacking alphabet blocks into giant towers: The normal flow is no different than those wooden blocks bound by the law of gravity. As a child, you had one block on top of another; in your markup, you have one element after another. What you couldn’t do as a child, however, was give those blocks properties that could defy the law of gravity. All of the sudden, CSS seems a lot cooler than those alphabet blocks.</p>
+                </div>
             </div>
             
-            <div class="banner"></div>
+            <div class="banner banner-3"></div>
             <div class="content">
-                <div class="inner-content"></div>
+                <div class="inner-content">
+                    <h1>Static and relative—nothing new here</h1>
+                    <p>The static and relative position properties behave like your childhood blocks—they stack as you would expect. Note that static is the default position value of an element, should you fail to apply any other value. If you have three statically positioned elements in your code, they will stack one on top of the next, as you might expect. Let’s take a look at an example with three elements, all with a position value of static:</p>
+                    <pre>
+                        <code>
+#box_1 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+                        </code>
+                    </pre>
+                    <p>In example A, you can see three elements stacked like a simple tower. Fascinating, isn’t it? This is block building 101. Congratulations!</p>
+
+                </div>
             </div>
             
-            <div class="banner"></div>
+            <div class="banner banner-4"></div>
             <div class="content">
-                <div class="inner-content"></div>
+                <div class="inner-content">
+                    <h1></h1>
+                    <p><p>You can use the static value for simple, single-column layouts where each element must sit on top of the next one. If you want to start shifting those elements around using offset properties such as top, right, bottom, and left, you’re out of luck. These properties are unavailable to a static element. In fact, a static element can’t even create a new coordinate system for child elements. Wait. What? You lost me at coordinate system. Roger that, Roger. Let’s explain using the relative value.</p>
+                    <p>Relatively positioned elements behave just like statically positioned elements; they play well with others, stack nicely, and don’t cause a ruckus. Hard to believe, right? Take a look at our previous example. This time, we’ve applied the relative value:</p>
+                    <pre>
+                        <code>
+#box_1 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+                        </code>
+                    </pre>
+                    <p>Example B proves that relatively positioned elements behave exactly the same way as statically positioned elements. What you may not know is that elements with a relative position value are like Clark Kent—they hide far greater powers than their static siblings.</p>
+                    
+                </div>
             </div>
             
             <div class="banner"></div>

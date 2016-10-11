@@ -1,0 +1,21 @@
+.header {
+    height: 300px;
+}
+
+.header h1 {
+    line-height: 300px;
+    text-align: center;
+}
+
+.student-img {
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.steps {
+    text-align: center;
+}
+
+.center-title {
+    text-align: center;
+}
