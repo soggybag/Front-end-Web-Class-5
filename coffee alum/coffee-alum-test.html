@@ -8,6 +8,15 @@
 
 <body>
     <div class="main grid"> <!-- .main, .grid -->
+       
+       <div>
+           <ul id="nav">
+               <li><a href="#a">AAA</a></li>
+               <li><a href="#a">BBB</a></li>
+               <li><a href="#a">CCC</a></li>
+           </ul>
+       </div>
+       
         <div class="header col-100">
             <h1>Coffee Alum</h1>
         </div>
@@ -15,7 +24,8 @@
         <div class="students">
             <div class="col-50">
                 <h2>Heading Student</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p><a href="mailto:soggybag@gmail.com">Email Me</a></p>
             </div>
             <div class="col-50">
                 <div class="student-img"></div>
@@ -43,9 +53,32 @@
         </div>
         <div class="col-50">
            <h3 class="center-title">Alumni Pictures</h3>
-            <div class="student-img"></div>
+            <div class="">
+                <form method="post" action="mail.php">
+                    <p>Email:
+                        <input name="email" type="text">
+                    </p>
+                    <p>Subject:
+                        <input name="subject" type="text">
+                    </p>
+                    <p>Message:
+                        <textarea name="comment" rows="15" cols="40"></textarea>
+                    </p>
+                    <p><input type="submit" value="Submit" /></p>
+                </form>
+
+            </div>
         </div>
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+        $("#nav a").click(function(event){
+            $("#nav a").removeClass("selected");
+            $(this).addClass("selected");
+        });
+    </script>
+    
 </body>
 
 </html>
