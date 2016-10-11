@@ -1,14 +1,19 @@
 # Front-end-Web-Class-5
 
+|   |   Time |    | Activity| Description |
+|---|--------|----|---------|-------------|
+| 1 |  5 min |  5 | TT      | Intro review CSS position |
+| 2 |  5 min | 10 | TT      | CSS Transitions |
+| 3 |  5 min | 15 | TT      | Font Awesome |
+| 4 | 40 min | 55 | Work    | Position Challenge |
+| 5 | 10 min | 65 | Break   | |
+| 6 | 40 min |105 | Work    | Work on portfolio site |
+| 7 |  5 min |110 | TT      | Wrap up |
 
 ## 1 - CSS Position absolute, relative, and fixed
 
 CSS position property provides further control over the position of elements. 
 Use position when you need more control over the position of an element. 
-
-### Position challenges
-
-Recreate the examples...
 
 ## 2 - CSS transition
 
@@ -29,8 +34,8 @@ Thing changes from blue to red in 2 seconds on hover. Thing also changes back to
 
 Time units can be: 
 
-- s seconds
-- ms milliseconds
+- s - seconds
+- ms - milliseconds
 
 ### Transition Challenges
 
@@ -79,3 +84,38 @@ In short follow these steps:
     - You can also set icons to fixed width. 
         - `<i class="fa fa-home fa-fw" aria-hidden="true">`
 
+## 4 - Break
+
+Take a break!
+
+## 5 - Position challenges
+
+Do your best to recreate the web pages shown here: 
+
+- [challenge-1](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-1.html)
+- [challenge-2](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-2.html)
+- [challenge-3](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-3.html)
+- [challenge-4](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-4.html)
+- [challenge-5](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-5.html)
+- [challenge-6](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-6.html)
+- [challenge-7](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-7.html)
+- [challenge-8](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-8.html)
+- [challenge-9](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-9.html)
+- [challenge-10](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-10.html)
+- [challenge-11](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-11.html)
+- [challenge-12](http://www.webdevils.com/make-school/front-end-web-class-5/challenges/challenge-12.html)
+
+## 6 - Wrap up 
+
+Here are some projects and challenegs to work on. 
+
+- Post your work to the web. Take the web sites you created and post them to your web host. Pages might be:
+  - Your App web site.
+  - Your JS examples from classs.
+ - Using the material from class 4 and 5 start building your portfolio page. Use Float and position to layout the page. 
+  - Look at the designs your drew. Identify boxes that will block elements making up the page. 
+  
+  
+  
+  
+  
