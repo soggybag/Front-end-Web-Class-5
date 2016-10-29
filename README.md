@@ -123,7 +123,9 @@ Here are some projects and challenegs to work on.
  - Using the material from class 4 and 5 start building your portfolio page. Use Float and position to layout the page. 
   - Look at the designs your drew. Identify boxes that will block elements making up the page. 
   
+  ## Resources 
   
+  - [Front End Web Playlist](https://goo.gl/z5fGaR) Watch videos 27 - 32
   
   
   
